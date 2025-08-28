@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="PG.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚡ Neon Password Generator ⚡</h1>
+    
+    <div class="password-box">
+      <input type="text" id="password" placeholder="password" readonly>
+      <button id="copyBtn">Copy</button>
+    </div>
+
+    <h2>Choose Password Length</h2>
+    <form>
+      <label><input type="radio" name="skills" value="6">6</label>
+      <label><input type="radio" name="skills" value="8">8</label>
+      <label><input type="radio" name="skills" value="12">12</label>
+    </form>
+
+    <button id="generateBtn">Generate Password</button>
+  </div>
+  <script src="PG.js"></script>
+</body>
+
+</html>
